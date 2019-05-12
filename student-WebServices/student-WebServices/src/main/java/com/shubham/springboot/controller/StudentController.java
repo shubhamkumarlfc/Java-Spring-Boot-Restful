@@ -40,7 +40,7 @@ public class StudentController {
 
 		if (course == null)
 			return ResponseEntity.noContent().build();
-
+		// to create a new location of added course and return it
 		URI location = ServletUriComponentsBuilder.fromCurrentRequest().path(
 				"/{id}").buildAndExpand(course.getId()).toUri();
 
