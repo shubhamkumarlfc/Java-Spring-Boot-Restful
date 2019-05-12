@@ -1,13 +1,13 @@
-package com.shubham.springboot.studentWebServices;
+package com.shubham.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StudentWebServicesApplication {
+public class StudentWebServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StudentWebServicesApplication.class, args);
+		SpringApplication.run(StudentWebServiceApplication.class, args);
 	}
 
 }
